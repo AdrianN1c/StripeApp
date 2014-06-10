@@ -1,5 +1,5 @@
 curl https://api.stripe.com/v1/customers/cus_2ucTiDmC8ar2fW \
-   -u sk_test_aRPYGBD4tW32BKIMJlWsFieD:
+   -u <<STRIPE API KEY>>:
 
    {
   "object": "customer",
