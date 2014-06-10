@@ -1,0 +1,4 @@
+<b>Error</b>
+<br />
+<p>Have you added the customers Stripe ID to the user profile in Zendesk?</p>
+<a href="https://z3nstripetest.zendesk.com/agent/?zat=true#/tickets/4/requester/tickets">View User Profile</a>

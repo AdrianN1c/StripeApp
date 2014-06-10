@@ -1,0 +1,14 @@
+<header>
+<center><img src="https://stripe.com/img/about/logos/logos/black.png" width="150" height="45" alt="some_text"></center>
+<br />
+  <span class="logo"/>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main/>
+<footer>
+  <div id="bug_link">
+  <a href="mailto:{{author.email}}">
+  Report Bugs
+  </a>
+  </div>
+</footer>

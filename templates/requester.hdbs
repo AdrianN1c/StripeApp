@@ -1,0 +1,45 @@
+{{user.user_fields.stripe_id}}
+<table width="78%">
+<b>
+<p>Subscription</p>
+</b>
+<tr>
+	<td>Plan:</td>
+	<td class="total">{{subscriptions.data.0.plan.name}}</td>
+</tr>
+<tr>
+	<td>Frequency:</td>
+	<td class="total">{{subscriptions.data.0.plan.interval}}</td>
+</tr>
+<tr>	
+	<td>Currency:</td>
+	<td class="total">{{subscriptions.data.0.plan.currency}}</td>
+</tr>
+<tr>	
+	<td>Cost:</td>
+	<td class="total">{{subscriptions.data.0.plan.amount}}</td>
+</tr>
+</table>
+<br />
+
+<table width="90%">
+<b>
+<p>Card Information</p>
+</b>
+<tr>
+	<td>Name:</td>
+	<td class="total">{{cards.data.0.name}}</td>
+</tr>
+<tr>
+	<td>Type:</td>
+	<td class="total">{{cards.data.0.type}}</td>
+</tr>
+<tr>
+	<td>Last four:</td>
+	<td class="total">{{cards.data.0.last4}}</td>
+</tr>
+<tr>
+	<td>Expiry:</td>
+	<td class="total">{{cards.data.0.exp_month}} / {{cards.data.0.exp_year}}</td>
+</tr>
+</table>

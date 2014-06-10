@@ -1,0 +1,10 @@
+#bug_link { 
+  font-size: 80%;
+  padding-top: 10px; 
+}
+
+.total {
+	text-align: left;
+	font-weight: bold;
+	color: #146;
+}

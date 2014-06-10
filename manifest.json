@@ -1,0 +1,21 @@
+{
+  "name": "Stripe",
+  "author": {
+    "name": "Adrian Nicholl",
+    "email": "anicholl+app@zendesk.com",
+    "url": "www.google.com"
+  },
+  "parameters": [
+    {
+      "name": "key",
+      "type": "text",
+      "required": true
+    }
+  ],
+  "defaultLocale": "en",
+  "private": true,
+  "location": "ticket_sidebar",
+  "version": "1.0",
+  "frameworkVersion": "1.0"
+  //"key": "sk_test_RUdZzSW8EZQLmGhXRtmKLMDQ"
+}

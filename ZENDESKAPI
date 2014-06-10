@@ -1,0 +1,5 @@
+curl https://z3nstripetest.zendesk.com/api/v2/user_fields/36326.json \
+   -u anicholl+stripetest@zendesk.com/token:oaTXTf8COLj32Zv5iza6AxWt4XqljuqoNGkjQRzo
+
+curl https://z3nstripetest.zendesk.com/api/v2/users/545229166.json \
+   -u anicholl+stripetest@zendesk.com/token:oaTXTf8COLj32Zv5iza6AxWt4XqljuqoNGkjQRzo

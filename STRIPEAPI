@@ -1,0 +1,71 @@
+curl https://api.stripe.com/v1/customers/cus_2ucTiDmC8ar2fW \
+   -u sk_test_aRPYGBD4tW32BKIMJlWsFieD:
+
+   {
+  "object": "customer",
+  "created": 1384047682,
+  "id": "cus_2ucTiDmC8ar2fW",
+  "livemode": false,
+  "description": "Test Customer",
+  "email": "anicholl+customer@zendesk.com",
+  "delinquent": false,
+  "metadata": {},
+  "subscription": {
+    "id": "su_102ucs2VzT71JMM9v8faXKBT",
+    "plan": {
+      "interval": "month",
+      "name": "Gold",
+      "amount": 999,
+      "currency": "gbp",
+      "id": "GLD",
+      "object": "plan",
+      "livemode": false,
+      "interval_count": 1,
+      "trial_period_days": null
+    },
+    "object": "subscription",
+    "start": 1384049194,
+    "status": "active",
+    "customer": "cus_2ucTiDmC8ar2fW",
+    "cancel_at_period_end": false,
+    "current_period_start": 1384049194,
+    "current_period_end": 1386641194,
+    "ended_at": null,
+    "trial_start": null,
+    "trial_end": null,
+    "canceled_at": null,
+    "quantity": 1,
+    "application_fee_percent": null
+  },
+  "discount": null,
+  "account_balance": 0,
+  "cards": {
+    "object": "list",
+    "count": 1,
+    "url": "/v1/customers/cus_2ucTiDmC8ar2fW/cards",
+    "data": [
+      {
+        "id": "card_102ucq2VzT71JMM9wmEdT4Ui",
+        "object": "card",
+        "last4": "4242",
+        "type": "Visa",
+        "exp_month": 11,
+        "exp_year": 2014,
+        "fingerprint": "yGcSgK3yhMXtm07p",
+        "customer": "cus_2ucTiDmC8ar2fW",
+        "country": "US",
+        "name": "A Customer",
+        "address_line1": "12 Brick",
+        "address_line2": null,
+        "address_city": "London",
+        "address_state": null,
+        "address_zip": "E2 1ER",
+        "address_country": null,
+        "cvc_check": "pass",
+        "address_line1_check": "pass",
+        "address_zip_check": "pass"
+      }
+    ]
+  },
+  "default_card": "card_102ucq2VzT71JMM9wmEdT4Ui"
+}
